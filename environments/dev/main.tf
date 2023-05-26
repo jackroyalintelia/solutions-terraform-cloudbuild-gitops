@@ -21,8 +21,8 @@ provider "google" {
   project = "${var.project}"
 }
 
-module "bigquery" {
-  source  = "../../modules/bigquery"
+module "gcs" {
+  source  = "../../modules/gcs
   project = var.project
   env = local.env
 }
