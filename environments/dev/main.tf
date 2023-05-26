@@ -25,5 +25,4 @@ module "gcs" {
   source  = "../../modules/gcs"
   project = var.project
   region = var.region
-  env = local.env
 }
