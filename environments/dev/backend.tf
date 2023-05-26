@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "${var.project}-tfstate"
+    bucket = "jackintelia-tfstate"
     prefix = "env/dev"
   }
 }
