@@ -22,7 +22,7 @@ provider "google" {
 }
 
 module "gcs" {
-  source  = "../../modules/gcs
+  source  = "../../modules/gcs"
   project = var.project
   env = local.env
 }
